@@ -22,6 +22,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install dependences
-        run: npm intall
+        run: npm install
       - name: test
         run: npx -n '--experimental-vm-modules' jest
